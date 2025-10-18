@@ -19,6 +19,9 @@ def main():
                 if key == order:
                     total += menu[key]
                     print(f"Total: ${total}")
+        except KeyError:
+            pass
+        
         except EOFError:
             print(f"{total}")
             break
