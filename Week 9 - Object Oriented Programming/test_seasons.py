@@ -18,5 +18,3 @@ def test_proper_format():
 def test_no_input():
     assert inspect_birthday("") == "Invalid Date Format"
 
-
-"""Test Minutes Calculation"""

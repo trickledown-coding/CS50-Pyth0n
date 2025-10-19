@@ -27,6 +27,8 @@ def inspect_birthday(b_day):
         d_day = b_day.split('-')
         if int(d_day[0]) < 2025:
             return b_day
+        else:
+            return f"Invalid Date Format"
     else:
         return f"Invalid Date Format"
     
